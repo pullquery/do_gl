@@ -1,1 +1,1 @@
-g++ src/* -lglfw3 -mwindows -o main
+g++ src/* -o main -Iinclude -Llib -lglfw3 -lgdi32
